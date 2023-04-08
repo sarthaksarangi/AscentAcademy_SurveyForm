@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+
+    .category{
+        display: inline-block;
+    }
+    body{
+        font-size: 20px;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background: linear-gradient(135deg, #71b7e6,#9b59b6);
+    }
+    .container{
+        max-width: 700px;
+        width: 100%;
+        background: #fff;
+        padding: 25px 30px;
+        border-radius: 5px;
+
+    }
+    .container .title{
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+    }
+    .container .title:before{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 30px;
+        left: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #71b7e6,#9b59b6);
+
+    }
