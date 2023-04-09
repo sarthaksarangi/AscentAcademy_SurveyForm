@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
-    <link rel="stylesheet" href="app.css">
+ <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
 
 
@@ -13,8 +13,9 @@
 <body>
     <div class="container">
         <div class="title">
-            <h2>Ascent Academy</h2>
-            <h3>Survey Form</h3>
+            
+            <h3>Ascent Academy</h3>
+            <p>Survey Form</p>
         </div>
         <form action="#">
             <div class="user-details">
@@ -28,16 +29,14 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Phone Number</span>
-                    <input type = "text" placeholder="Enter your phone number" required>
+                    <input type = "text" placeholder="Enter your number" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Email</span>
                     <input type = "email" placeholder="Enter your email" required>
                 </div>
-                
+                </div>
 
-                
-            </div>
             <div class="gender-details">
                 <span class="gender-title">Gender</span>
                 <div class="category">
@@ -48,6 +47,14 @@
                     </select>
                     
                 </div>
+            </div>
+            <div class="feedback-form">
+                <label for="feedback-form">Feedback</label>
+                <textarea name="feedback" id="" cols="30" rows="10"></textarea>
+                
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
             </div>
             
         </form>
