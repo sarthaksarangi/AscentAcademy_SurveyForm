@@ -17,7 +17,7 @@
             <h3>Ascent Academy</h3>
             <p>Survey Form</p>
         </div>
-        <form action="#">
+        <form onsubmit="return validateForm()">
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Full Name</span>
@@ -33,8 +33,11 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Email</span>
-                    <input type = "email" placeholder="Enter your email" required>
+                    <input type = "email" id="email" placeholder="Enter your email" required>
                 </div>
+                <div id="error-message" style="display: none; color: red;">
+                    Email address must be between 1 and 100 characters long.
+                  </div>
                 </div>
 
             <div class="gender-details">
@@ -71,4 +74,5 @@
     
     
 </body>
+<script src="index.js"></script>
 </html>
